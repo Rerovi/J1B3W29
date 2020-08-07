@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+nav {
+    padding: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+select {
+    width: 300px;
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+}
+.table {
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 5px 8px;
+}
+.navItems {
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    box-shadow: 2px 5px;
+}
+.navList {
+    height: 50px;
+    text-align: center;
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+.planningTab {
+    background-color: white;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    box-shadow: 5px 10px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.planningTab > p {
+    margin-bottom: 1px;
+}
+
+.createTab {
+    width: 500px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    box-shadow: 5px 10px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.gameTab {
+    width: 550px;
+    height: 760px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+    box-shadow: 5px 10px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.gamePage {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+.insideTab {
+    padding: 20px;
+}
